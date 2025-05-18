@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+  background-color: #D5E5D5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Custom Font */
+@font-face {
+  font-family: myfont;
+  src: url("../assets/fonts/fst.ttf");
+}
+
+/* Container */
+.container {
+  text-align: center;
+}
+
+/* Image Styling */
+.giridih {
+  width: 200px;
+  height: auto;
+  border-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+/* Heading Styling */
+h1 {
+  font-family: myfont;
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+  margin-top: 10px;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Button Styling */
+.btn-77 {
+  display: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #fff;
+  margin-top: 20px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+}
