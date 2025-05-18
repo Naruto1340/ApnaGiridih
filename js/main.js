@@ -26,5 +26,5 @@ function typeWriter(text, element, speed) {
 
 // Redirect to login page
 function redirectToLogin() {
-  window.location.href = "./pages/login.html";
+  window.location.href = "./pages/home.html";
 }
